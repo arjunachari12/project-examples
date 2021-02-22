@@ -10,8 +10,7 @@ pipeline {
         stage ('Artifactory configuration') {
             steps {
                 rtServer (
-                    id: "ARTIFACTORY_SERVER",
-                    url: https://arjun12.jfrog.io/artifactory
+                    id: "ARTIFACTORY_SERVER"
         
                 )
 
